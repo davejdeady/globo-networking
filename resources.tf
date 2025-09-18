@@ -18,7 +18,7 @@ data "aws_availability_zones" "available" {}
 locals {
   common_tags = {
     Enviroment = var.environment
-    
+
   }
 }
 
@@ -63,7 +63,7 @@ resource "aws_security_group" "ingress" {
   name                   = "no-ingress-sg"
   name_prefix            = null
   revoke_rules_on_delete = null
-  tags = local.common_tags
-  tags_all = {}
-  vpc_id = module.main.vpc_id
+  tags                   = local.common_tags
+  tags_all               = {}
+  vpc_id                 = module.main.vpc_id
 }
