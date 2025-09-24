@@ -8,6 +8,12 @@ variable "region" {
   default     = "eu-west-1"
 }
 
+variable "owner" {
+  type        = string
+  description = "owner tag"
+  default     = "DDDEVOPS"
+}
+
 variable "prefix" {
   type        = string
   description = "(Optional) Prefix to use for all resources in this module. Default: globo-dev"
