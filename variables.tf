@@ -40,5 +40,6 @@ variable "public_subnets" {
 variable "owner" {
   type        = string
   description = "whos the owner of the deployment"
+  default = DDDEVOPS
 }
 
