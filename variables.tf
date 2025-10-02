@@ -23,7 +23,7 @@ variable "environment" {
 variable "billing_code" {
   type        = string
   description = "billing code for network resources"
-  default     = "121213"
+  default     = "121713"
 }
 
 
