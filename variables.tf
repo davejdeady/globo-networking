@@ -5,7 +5,7 @@
 variable "region" {
   type        = string
   description = "(Optional) AWS Region to use. Default: us-east-1"
-  default     = "eu-west-3"
+  default     = "eu-west-1"
 }
 
 variable "prefix" {
@@ -23,7 +23,7 @@ variable "environment" {
 variable "billing_code" {
   type        = string
   description = "billing code for network resources"
-  default     = "121713"
+  default     = "121714"
 }
 
 
