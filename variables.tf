@@ -11,7 +11,7 @@ variable "region" {
 variable "owner" {
   type        = string
   description = "owner tag"
-  default     = "DDDEVOPS"
+  default     = "DDDEVOPS-for-STAGING"
 }
 
 variable "prefix" {
