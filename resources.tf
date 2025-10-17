@@ -50,7 +50,7 @@ module "main" {
 
 # __generated__ by Terraform from "sg-04cd9c6e7abc26bde"
 resource "aws_security_group" "ingress" {
-  description = "Security group with no ingress rule"
+  description = "Security group with no ingress rule "
   egress = [{
     cidr_blocks      = ["0.0.0.0/0"]
     description      = ""
